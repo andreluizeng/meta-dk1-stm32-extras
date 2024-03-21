@@ -82,7 +82,7 @@ tmp/deploy/images/custom-stm32-dk1/
 The SD card image is specifically in:
 
 ```
-imx8mmevk-image-demo-custom-stm32-dk1.wic.gz
+customstm32dk1-image-demo-custom-stm32-dk1.wic.gz
 ```
 
 And shall be written to the SD card using dd:
