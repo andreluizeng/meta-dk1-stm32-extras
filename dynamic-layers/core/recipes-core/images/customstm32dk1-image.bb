@@ -12,9 +12,12 @@ IMAGE_INSTALL:append:custom-stm32-dk1 = " \
 	iperf3 stress-ng ethtool \
 	\
 	nano evtest libgpiod libgpiod-tools beep \
+	\
+	openssh-sftp openssh-sftp-server \
 	"
 
 IMAGE_FEATURES:append:custom-stm32-dk1 = " \
 	dev-pkgs tools-sdk tools-debug tools-profile debug-tweaks \
 	"
+IMAGE_INSTALL:remove:custom-stm32-dk1 = " lttng-modules"
 
